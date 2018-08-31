@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <h5>video</h5>
+  <video  controls width="200px" height="200px" onclick="au()" id="" >
+    <source src="song.mp4" type="video/mp4" >
+    </video>
+        <button  type="button" onclick="play()" name="button">play</button>
+         <button type="button" onclick="pause()"name="button">pause</button>
+    <h5>audio</h5>
+  <audio controls>
+    <source src="Sleep Away.mp3" type="audio/mp3">
+  </audio>
+     <button id="play" type="button" data-state="play">play</button>
+     <button id="pause" type="button" data-state="pause">pause</button>
+   </body>
+   <script type="text/javascript">
+    var v=document.getElementId("dcr");
+   function au(){
+     var v=document.getElementId("dcr");
+    v.play();
+   }
+   function play(){
+     v.play();
+   }
+   function pause(){
+  v.pause();
+   }
+   </script>
+ </body>
+   </html>
